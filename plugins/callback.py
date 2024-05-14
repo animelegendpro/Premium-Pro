@@ -19,15 +19,15 @@ async def about(bot,update):
 async def donatecm(bot,message):
 	text = script.DONATE_TXT
 	keybord = InlineKeyboardMarkup([
-        			[InlineKeyboardButton("🦋 Admin",url = "https://t.me/CallAdminRobot"), 
-        			InlineKeyboardButton("✖️ Close",callback_data = "cancel") ]])
+        			[InlineKeyboardButton("🍁 Admin",url = "https://t.me/CallAdminRobot"), 
+        			InlineKeyboardButton("✘ Close",callback_data = "cancel") ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 @Client.on_message(filters.private & filters.user(OWNER) & filters.command(["admin"]))
 async def admincm(bot,message):
 	text = script.ADMIN_TXT
 	keybord = InlineKeyboardMarkup([
-        			[InlineKeyboardButton("✖️ Close ✖️",callback_data = "cancel") ]])
+        			[InlineKeyboardButton("✘ Close ✘",callback_data = "cancel") ]])
 	await message.reply_text(text = text,reply_markup = keybord)
 
 @Client.on_callback_query(filters.regex('help'))
