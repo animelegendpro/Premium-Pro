@@ -42,7 +42,7 @@ async def start(client, message):
                                         [[InlineKeyboardButton("📢 Updates", url="https://t.me/Madflix_Bots"),
                                         InlineKeyboardButton("💬 Support", url="https://t.me/MadflixBots_Support")],
                                         [InlineKeyboardButton("🛠️ Help", callback_data='help'),
-				                        InlineKeyboardButton("❤️‍🩹 About", callback_data='about')],
+				                        InlineKeyboardButton("😊 About", callback_data='about')],
                                         [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://t.me/CallAdminRobot")]
                                         ]))
     return
@@ -142,7 +142,7 @@ async def send_doc(client, message):
             total_size(int(botid), prsize, file.file_size)
             await message.reply_text(f"""__Wʜᴀᴛ Dᴏ Yᴏᴜ Wᴀɴᴛ Mᴇ Tᴏ Dᴏ Wɪᴛʜ Tʜɪs Fɪʟᴇ ?__\n\n**Fɪʟᴇ Nᴀᴍᴇ** :- `{filename}`\n**Fɪʟᴇ Sɪᴢᴇ** :- {filesize}\n**DC ID** :- {dcid}""", reply_to_message_id=message.id, reply_markup=InlineKeyboardMarkup(
                 [[InlineKeyboardButton("📝 Rᴇɴᴀᴍᴇ", callback_data="rename"),
-                  InlineKeyboardButton("✖️ Cᴀɴᴄᴇʟ", callback_data="cancel")]]))
+                  InlineKeyboardButton("✘ Cᴀɴᴄᴇʟ", callback_data="cancel")]]))
               
               
               
