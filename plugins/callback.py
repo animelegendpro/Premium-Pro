@@ -10,7 +10,7 @@ from config import *
 async def about(bot,update):
     text = script.ABOUT_TXT
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("🔙 Back",callback_data = "home")]
+                    [InlineKeyboardButton("《 Back",callback_data = "home")]
                   ])
     await update.message.edit(text = text,reply_markup = keybord)
 
@@ -45,7 +45,7 @@ async def help(bot,update):
 async def thumbnail(bot,update):
     text = script.THUMBNAIL_TXT
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("🔙 Back",callback_data = "help")]
+                    [InlineKeyboardButton("《 Back",callback_data = "help")]
 		  ])
     await update.message.edit(text = text,reply_markup = keybord)
 
@@ -53,7 +53,7 @@ async def thumbnail(bot,update):
 async def caption(bot,update):
     text = script.CAPTION_TXT
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("🔙 Back",callback_data = "help")]
+                    [InlineKeyboardButton("《 Back",callback_data = "help")]
 		  ])
     await update.message.edit(text = text,reply_markup = keybord)
 
@@ -61,7 +61,7 @@ async def caption(bot,update):
 async def donate(bot,update):
     text = script.DONATE_TXT
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("🔙 Back",callback_data = "help")]
+                    [InlineKeyboardButton("《 Back",callback_data = "help")]
 		  ])
     await update.message.edit(text = text,reply_markup = keybord)
 
@@ -70,11 +70,11 @@ async def donate(bot,update):
 async def home_callback_handler(bot, query):
     text = f"""Hello {query.from_user.mention} \n\n➻ This Is An Advanced And Yet Powerful Rename Bot.\n\n➻ Using This Bot You Can Rename And Change Thumbnail Of Your Files.\n\n➻ You Can Also Convert Video To File Aɴᴅ File To Video.\n\n➻ This Bot Also Supports Custom Thumbnail And Custom Caption.\n\n<b>Bot Is Made By @Madflix_Bots</b>"""
     keybord = InlineKeyboardMarkup([  
-                    [InlineKeyboardButton("📢 Updates", url="https://t.me/Madflix_Bots"),
-                    InlineKeyboardButton("💬 Support", url="https://t.me/MadflixBots_Support")],
-                    [InlineKeyboardButton("🛠️ Help", callback_data='help'),
-		            InlineKeyboardButton("❤️‍🩹 About", callback_data='about')],
-                    [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://t.me/CallAdminRobot")]
+                    [InlineKeyboardButton("📢 Uᴘᴅᴀᴛᴇs", url="https://t.me/ZPro_Bots"),
+                    InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/+FGM0HOnjDC45ZDk1")],
+                    [InlineKeyboardButton("🛠️ Hᴇʟᴘ", callback_data='help'),
+		            InlineKeyboardButton("😊 Aʙᴏᴜᴛ", callback_data='about')],
+                    [InlineKeyboardButton("🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ 🧑‍💻", url="https://t.me/CallAdminRobot")]
 		  ])
     await query.message.edit_text(text=text, reply_markup=keybord)
 
