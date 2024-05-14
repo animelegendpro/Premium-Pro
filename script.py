@@ -16,21 +16,21 @@ class script(object):
 <b>⦿ /viewthumb - Use This Command To See Your Thumbnail</b>
 <b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
 
-    ABOUT_TXT = """<b>🤖 My Name :</b> <a href='https://t.me/FileRenameXProBot'>Rename Bot 4GB</a>
-<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
-<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
-<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
-<b>📢 Channel :</b> <a href='https://t.me/Madflix_Bots'>Madflix Botz</a>
-<b>🧑‍💻 Developer :</b> <a href='https://t.me/CallAdminRobot'>Jishu Developer</a>
+    ABOUT_TXT = """<b>🤖 My Name :</b> <a href='https://t.me/Auto_Renamer_XBot'>Rename Bot 4GB</a>
+<b>○ Language :</b> <a href='https://python.org'>Python 3</a>
+<b>○ Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
+<b>○ Server :</b> <a href='https://heroku.com'>Heroku</a>
+<b>○ Channel :</b> <a href='https://t.me/ZPro_Bots'>Madflix Botz</a>
+<b>○ Developer :</b> <a href='https://t.me/Devil_Eyes_ZX'>Jishu Developer</a>
 
-<b>♻️ Bot Made By :</b> @Madflix_Bots"""
+<b>♻️ Bot Made By :</b> @ZPro_Bots"""
 
     DONATE_TXT = """
 <b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
 
 If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 UPI ID:</b> <code>madflixofficial@axl</code> 
+<b>🛍 UPI ID:</b> <code>anime-legend@axl</code> 
 
 <b>📸 Send Screenshot After Donation To Activate Your Premium Plan </b> """
 
