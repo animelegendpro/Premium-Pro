@@ -39,11 +39,11 @@ async def start(client, message):
     await message.reply_photo(photo=BOT_PIC,
                                 caption=txt,
                                 reply_markup=InlineKeyboardMarkup(
-                                        [[InlineKeyboardButton("📢 Updates", url="https://t.me/Madflix_Bots"),
-                                        InlineKeyboardButton("💬 Support", url="https://t.me/MadflixBots_Support")],
-                                        [InlineKeyboardButton("🛠️ Help", callback_data='help'),
-				                        InlineKeyboardButton("😊 About", callback_data='about')],
-                                        [InlineKeyboardButton("🧑‍💻 Developer 🧑‍💻", url="https://t.me/CallAdminRobot")]
+                                        [[InlineKeyboardButton("📢 Uᴘᴅᴀᴛᴇs", url="https://t.me/ZPro_Bots"),
+                                        InlineKeyboardButton("💬 Sᴜᴘᴘᴏʀᴛ", url="https://t.me/+FGM0HOnjDC45ZDk1")],
+                                        [InlineKeyboardButton("🛠️ Hᴇʟᴘ", callback_data='help'),
+				                        InlineKeyboardButton("😊 ᴀʙᴏᴜᴛ", callback_data='about')],
+                                        [InlineKeyboardButton("🧑‍💻 Dᴇᴠᴇʟᴏᴘᴇʀ 🧑‍💻", url="https://t.me/CallAdminRobot")]
                                         ]))
     return
 
