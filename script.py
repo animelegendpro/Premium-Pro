@@ -1,48 +1,49 @@
 class script(object):
-    HELP_TXT = """<b>ʜᴇʏ 😎</b> {}
+    HELP_TXT = """<b>๏ ʜᴇʏ 😎</b> {}
     
-<b>ʜᴇʀᴇ ɪs ᴛʜᴇ ʜᴇʟᴘ ғᴏʀ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.</b>"""
+<b>Here Is The Help For My Commands.</b>"""
 
-    CAPTION_TXT = """<b>๏ ʜᴏᴡ ᴛᴏ sᴇᴛ ᴄᴀᴘᴛɪᴏɴ ๏</b>
+    CAPTION_TXT = """<b><u>📝  HOW TO SET CAPTION</u></b>
 
-<b>↬ /set_caption - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴛ ʏᴏᴜʀ ᴄᴀᴘᴛɪᴏɴ</b>
-<b>↬ /see_caption - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴇ ʏᴏᴜʀ ᴄᴀᴘᴛɪᴏɴ</b>
-<b>↬ /del_caption - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴄᴀᴘᴛɪᴏɴ</b>"""
+<b>⦿ /set_caption - Use This Command To Set Your Caption</b>
+<b>⦿ /see_caption - Use This Command To See Your Caption</b>
+<b>⦿ /del_caption - Use This Command To Delete Your Caption</b>"""
    
-    THUMBNAIL_TXT = """<b>๏ ʜᴏᴡ ᴛᴏ sᴇᴛ ᴛʜᴜᴍʙɴᴀɪʟ ๏</b>
+    THUMBNAIL_TXT = """<b><u>🖼️  HOW TO SET THUMBNAIL</u></b>
 
-<b>↬ ʏᴏᴜ ᴄᴀɴ ᴀᴅᴅ ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ sɪᴍᴘʟʏ ʙʏ sᴇɴᴅɪɴɢ ᴀ ᴘʜᴏᴛᴏ ᴛᴏ ᴍᴇ....</b>
+<b>⦿ You Can Add Custom Thumbnail Simply By Sending A Photo To Me....</b>
 
-<b>↬ /viewthumb - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴇ ʏᴏᴜʀ ᴛʜᴜᴍʙɴᴀɪʟ</b>
-<b>↬ /delthumb - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴅᴇʟᴇᴛᴇ ʏᴏᴜʀ ᴛʜᴜᴍʙɴᴀɪʟ</b>"""
+<b>⦿ /viewthumb - Use This Command To See Your Thumbnail</b>
+<b>⦿ /delthumb - Use This Command To Delete Your Thumbnail</b>"""
 
-    ABOUT_TXT = """<b>๏ ᴍʏ ɴᴀᴍᴇ :</b> <a href='https://t.me/Fast_Renamer_ZBot'><b>Fast Renamer ZBot</b></a>
-<b>○ ʟᴀɴɢᴜᴀɢᴇ :</b> <a href='https://python.org'><b>ᴘʏᴛʜᴏɴ 3</b></a>
-<b>○ ʟɪʙʀᴀʀʏ :</b> <a href='https://pyrogram.org'><b>ᴘʏʀᴏɢʀᴀᴍ 2.0</b></a>
-<b>○ sᴇʀᴠᴇʀ :</b> <a href='https://heroku.com'><b>ʜᴇʀᴏᴋᴜ</b></a>
-<b>○ ᴄʜᴀɴɴᴇʟ :</b> <a href='https://t.me/ZPro_Bots'><b>Zᴘʀᴏ ʙᴏᴛs</b></a>
-<b>○ ᴅᴇᴠᴇʟᴏᴘᴇʀ :</b> <a href='https://t.me/Devil_Eyes_ZX'><b>Ɗᴇᴠɪʟ ᴇʏᴇs</b></a>
+    ABOUT_TXT = """<b>🤖 My Name :</b> <a href='https://t.me/Fast_Renamer_ZBot'>Fast Renamer ZBot</a>
+<b>📝 Language :</b> <a href='https://python.org'>Python 3</a>
+<b>📚 Library :</b> <a href='https://pyrogram.org'>Pyrogram 2.0</a>
+<b>🚀 Server :</b> <a href='https://heroku.com'>Heroku</a>
+<b>📢 Channel :</b> <a href='https://t.me/ZPro_Bots'>ZPro Bots</a>
+<b>🧑‍💻 Developer :</b> <a href='https://t.me/Devil_Eyes_ZX'>Devil Eyes</a>
 
-<b>♻ ʙᴏᴛ ᴍᴀᴅᴇ ʙʏ :</b> @ZPro_Bots"""
+<b>♻ Bot Made By :</b> @ZPro_Bots"""
 
     DONATE_TXT = """
-<b>🥲 ᴛʜᴀɴᴋs ғᴏʀ sʜᴏᴡɪɴɢ ɪɴᴛᴇʀᴇsᴛ ɪɴ ᴅᴏɴᴀᴛɪᴏɴ! ❤</b>
+<b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
 
-<b>↬ ɪғ ʏᴏᴜ ʟɪᴋᴇ ᴍʏ ʙᴏᴛs & ᴘʀᴏᴊᴇᴄᴛs, ʏᴏᴜ ᴄᴀɴ ᴅᴏɴᴀᴛᴇ ᴍᴇ ᴀɴʏ ᴀᴍᴏᴜɴᴛ ғʀᴏᴍ 𝟸𝟶 ʀs ᴜᴘᴛᴏ ʏᴏᴜʀ ᴄʜᴏɪᴄᴇ.</b>
+If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
-<b>🛍 ᴜᴘɪ ɪᴅ:</b> <code>anime-legend@axl</code> 
+<b>🛍 UPI ID:</b> <code>anime-legend@axl</code> 
 
+<b>๏ ᴍᴀsᴛᴇʀ :- @Devil_Eyes_ZX</b> """
 
-    ADMIN_TXT = """<b><u>ADMIN ALL COMMANDS HERE</u></b>
+    ADMIN_TXT = """<b><u>🦋 ADMIN ALL COMMANDS HERE</u></b>
 
-<b>• /users - Use This Command To See Total Users</b>
-<b>• /allids - Use This Command To See All Users IDs</b>
-<b>• /broadcast - Use This Command To Send A Message To Users</b>
-<b>• /warn - Use This Command To Send A Message To A User</b>
-<b>• /resetpower - Use This Command To Reset User Power</b>
-<b>• /ceasepower - Use This Command To Cease User Power</b>
-<b>• /addpremium - Use This Command To Add Premium To Users</b>
-<b>• /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
+<b>⦿ /users - Use This Command To See Total Users</b>
+<b>⦿ /allids - Use This Command To See All Users IDs</b>
+<b>⦿ /broadcast - Use This Command To Send A Message To Users</b>
+<b>⦿ /warn - Use This Command To Send A Message To A User</b>
+<b>⦿ /resetpower - Use This Command To Reset User Power</b>
+<b>⦿ /ceasepower - Use This Command To Cease User Power</b>
+<b>⦿ /addpremium - Use This Command To Add Premium To Users</b>
+<b>⦿ /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
 
 
 
