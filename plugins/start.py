@@ -32,7 +32,7 @@ async def start(client, message):
     except IndexError:
         id = None
 
-    loading_sticker_message = await message.reply_sticker("")
+    loading_sticker_message = await message.reply_sticker("CAACAgIAAxkBAALmzGXSSt3ppnOsSl_spnAP8wHC26jpAAJEGQACCOHZSVKp6_XqghKoHgQ")
     await asyncio.sleep(2)
     await loading_sticker_message.delete()
     txt=f"""Hello {message.from_user.mention} \n\n<b>➻ ᴛʜɪs ɪs ᴀɴ ᴀᴅᴠᴀɴᴄᴇᴅ ᴀɴᴅ ʏᴇᴛ ᴘᴏᴡᴇʀғᴜʟ ʀᴇɴᴀᴍᴇ ʙᴏᴛ.<b>\n\n</b>➻ ᴜsɪɴɢ ᴛʜɪs ʙᴏᴛ ʏᴏᴜ ᴄᴀɴ ʀᴇɴᴀᴍᴇ ᴀɴᴅ ᴄʜᴀɴɢᴇ ᴛʜᴜᴍʙɴᴀɪʟ ᴏғ ʏᴏᴜʀ ғɪʟᴇs.</b>\n\n<b>➻ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴄᴏɴᴠᴇʀᴛ ᴠɪᴅᴇᴏ ᴛᴏ ғɪʟᴇ Aɴᴅ ғɪʟᴇ ᴛᴏ ᴠɪᴅᴇᴏ.</b>\n\n<b>➻ ᴛʜɪs ʙᴏᴛ ᴀʟsᴏ sᴜᴘᴘᴏʀᴛs ᴄᴜsᴛᴏᴍ ᴛʜᴜᴍʙɴᴀɪʟ ᴀɴᴅ ᴄᴜsᴛᴏᴍ ᴄᴀᴘᴛɪᴏɴ.</b>\n\n<b>ʙᴏᴛ ɪs ᴍᴀᴅᴇ ʙʏ @ZPro_Bots</b>"""
@@ -43,7 +43,7 @@ async def start(client, message):
                                         InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/+FGM0HOnjDC45ZDk1")],
                                         [InlineKeyboardButton("Hᴇʟᴘ", callback_data='help'),
 				                        InlineKeyboardButton("ᴀʙᴏᴜᴛ", callback_data='about')],
-                                        [InlineKeyboardButton("🍁 ᴘʀᴇᴍɪᴜᴍ 🍁", callback_data="upgrade")]
+                                        [InlineKeyboardButton("🍁 ᴘʀᴇᴍɪᴜᴍ 🍁", callback_data='upgrade')]
                                         ]))
     return
 
