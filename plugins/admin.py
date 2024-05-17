@@ -20,9 +20,9 @@ async def warn(c, m):
 @Client.on_message(filters.private & filters.user(OWNER) & filters.command(["addpremium"]))
 async def buypremium(bot, message):
 	await message.reply_text("<b>๏ sᴇʟᴇᴄᴛ ᴘʟᴀɴ ᴛᴏ ᴜᴘɢʀᴀᴅᴇ...</b>", quote=True, reply_markup=InlineKeyboardMarkup([
-		           [InlineKeyboardButton("🪙 ʙᴀsɪᴄ", callback_data="vip1")],
-				   [InlineKeyboardButton("⚡ sᴛᴀɴᴅᴀʀᴅ", callback_data="vip2")],
-				   [InlineKeyboardButton("👑 ᴜʟᴛɪᴍᴀᴛᴇ", callback_data="vip3")],
+		           [InlineKeyboardButton("🔥 Bᴀsɪᴄ", callback_data="vip1")],
+				   [InlineKeyboardButton("😎 Sᴛᴀɴᴅᴀʀᴅ", callback_data="vip2")],
+				   [InlineKeyboardButton("👑 Uʟᴛɪᴍᴀᴛᴇ", callback_data="vip3")],
 				   [InlineKeyboardButton("✘ ᴄᴀɴᴄᴇʟ ✘",callback_data = "cancel")]
 				   
 				   ]))
@@ -54,7 +54,7 @@ async def vip1(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit  = 21474836500
 	uploadlimit(int(user_id),21474836500)
-	usertype(int(user_id),"🪙 ʙᴀsɪᴄ")
+	usertype(int(user_id),"🔥 Bᴀsɪᴄ")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 20 GB")
 	await bot.send_message(user_id,"ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ ʙᴀsɪᴄ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan")
@@ -65,7 +65,7 @@ async def vip2(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit = 53687091200
 	uploadlimit(int(user_id), 53687091200)
-	usertype(int(user_id),"⚡ sᴛᴀɴᴅᴀʀᴅ")
+	usertype(int(user_id),"😎 Sᴛᴀɴᴅᴀʀᴅ")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 50 GB")
 	await bot.send_message(user_id,"ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ sᴛᴀɴᴅᴀʀᴅ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan")
