@@ -6,7 +6,7 @@ from helper.database import uploadlimit, usertype, addpre
 
 
 @Client.on_message(filters.private & filters.user(OWNER) & filters.command(["warn"]))
-async def warn(c, m):
+async def warn(client, message):
         if len(m.command) >= 3:
             try:
                 user_id = m.text.split(' ', 2)[1]
@@ -57,7 +57,7 @@ async def vip1(bot,update):
 	usertype(int(user_id),"🔥 Bᴀsɪᴄ")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 20 GB")
-	await bot.send_message(user_id,"ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ ʙᴀsɪᴄ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan")
+	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ 🔥 Bᴀsɪᴄ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>")
 
 @Client.on_callback_query(filters.regex('vip2'))
 async def vip2(bot,update):
@@ -68,7 +68,7 @@ async def vip2(bot,update):
 	usertype(int(user_id),"😎 Sᴛᴀɴᴅᴀʀᴅ")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 50 GB")
-	await bot.send_message(user_id,"ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ sᴛᴀɴᴅᴀʀᴅ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan")
+	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ 😎 Sᴛᴀɴᴅᴀʀᴅ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>")
 
 @Client.on_callback_query(filters.regex('vip3'))
 async def vip3(bot,update):
@@ -79,7 +79,7 @@ async def vip3(bot,update):
 	usertype(int(user_id),"👑 ᴜʟᴛɪᴍᴀᴛᴇ")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟷𝟶𝟶 ɢʙ")
-	await bot.send_message(user_id,"ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ ᴘʀᴏ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan")
+	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ 👑 Uʟᴛɪᴍᴀᴛᴇ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>")
 
 
 # CEASE POWER MODE @JISHUDEVELOPER
@@ -88,12 +88,12 @@ async def vip3(bot,update):
 async def cp1(bot,update):
 	id = update.message.reply_to_message.text.split("/ceasepower")
 	user_id = id[1].replace(" ", "")
-	inlimit  = 2147483652
-	uploadlimit(int(user_id), 2147483652)
+	inlimit  = 1073741824
+	uploadlimit(int(user_id), 1073741824)
 	usertype(int(user_id),"⚠️ ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ")
 	addpre(int(user_id))
-	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 2GB")
-	await bot.send_message(user_id,"ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ᴛᴏ ᴄᴇᴀsᴇ ʟɪᴍɪᴛ 2GB. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan \n\n**ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :** @Devil_Eyes_ZX")
+	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟷ɢʙ")
+	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ᴛᴏ ᴄᴇᴀsᴇ ʟɪᴍɪᴛ 𝟷ɢʙ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>\n\n**ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :** @Devil_Eyes_ZX")
 
 
 @Client.on_callback_query(filters.regex('cp2'))
@@ -105,7 +105,7 @@ async def cp2(bot,update):
 	usertype(int(user_id),"⚠️ ᴀᴄᴄᴏᴜɴᴛ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 0GB")
-	await bot.send_message(user_id,"ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ᴛᴏ ᴄᴇᴀsᴇ ʟɪᴍɪᴛ 0GB. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan \n\n**ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :** @Devil_Eyes_ZX")
+	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴅᴏᴡɴɢʀᴀᴅᴇᴅ ᴛᴏ ᴄᴇᴀsᴇ ʟɪᴍɪᴛ 0GB. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>\n\n**ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :** @Devil_Eyes_ZX")
 
 
 
@@ -121,7 +121,7 @@ async def dft(bot,update):
 	usertype(int(user_id),"🆓 Fʀᴇᴇ")
 	addpre(int(user_id))
 	await update.message.edit("**ᴅᴀɪʟʏ ᴅᴀᴛᴀ ʟɪᴍɪᴛ ʜᴀs ʙᴇᴇɴ ʀᴇsᴇᴛ sᴜᴄᴄᴇssғᴜʟʟʏ.**\n\nᴛʜɪs ᴀᴄᴄᴏᴜɴᴛ ʜᴀs ᴅᴇғᴀᴜʟᴛ 2GB ʀᴇᴍᴀɪɴɪɴɢ ᴄᴀᴘᴀᴄɪᴛʏ")
-	await bot.send_message(user_id,"**ʏᴏᴜʀ ᴅᴀɪʟʏ ᴅᴀᴛᴀ ʟɪᴍɪᴛ ʜᴀs ʙᴇᴇɴ ʀᴇsᴇᴛ sᴜᴄᴄᴇssғᴜʟʟʏ.**\n\nᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan\n\n**ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :** <a href='https://t.me/Devil_Eyes_ZX'>Devil Eyes</a>")
+	await bot.send_message(user_id,"**๏ ʏᴏᴜʀ ᴅᴀɪʟʏ ᴅᴀᴛᴀ ʟɪᴍɪᴛ ʜᴀs ʙᴇᴇɴ ʀᴇsᴇᴛ sᴜᴄᴄᴇssғᴜʟʟʏ.**\n\n<b>ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>\n\n**ᴄᴏɴᴛᴀᴄᴛ ᴀᴅᴍɪɴ :** <a href='https://t.me/Devil_Eyes_ZX'>Devil Eyes</a>")
 
 
 
