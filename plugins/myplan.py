@@ -15,7 +15,7 @@ from helper.database import uploadlimit, usertype
 @Client.on_message(filters.private & filters.command(["myplan"]))
 async def start(client, message):
     used_ = find_one(message.from_user.id)
-    daily = used_['data']
+    daily = used_['daily']
     expi = daily - \
         int(time.mktime(time.strptime(str(date_.today()), '%Y-%m-%d')))
     if expi != 0:
@@ -36,10 +36,10 @@ async def start(client, message):
             uploadlimit(message.from_user.id, 2147483652)
             usertype(message.from_user.id, "Fʀᴇᴇ")
     if ends == None:
-        text = f"**User ID :** `{message.from_user.id}` \n**ɴᴀᴍᴇ :** {message.from_user.mention} \n\n**<b>🏷 ᴘʟᴀɴ :</b>** {user} \n\n<b>✓ ᴜᴘʟᴏᴀᴅ 2GB ғɪʟᴇs \n<b>✓ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ <b>: {humanbytes(limit)} \n<b>✓ ᴛᴏᴅᴀʏ ᴜsᴇᴅ </b>: {humanbytes(used)} \n</b>✓ ʀᴇᴍᴀɪɴ :</b> {humanbytes(remain)} \n</b>✓ ᴛɪᴍᴇᴏᴜᴛ :</b> 2 ᴍɪɴᴜᴛᴇs \n<b>✓ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss :</b> ᴜɴʟɪᴍɪᴛᴇᴅ \n<b>✓ ᴛɪᴍᴇ ɢᴀᴘ :</b> ʏᴇs \n\n**<b>ᴠᴀʟɪᴅɪᴛʏ :</b>** ʟɪғᴇᴛɪᴍᴇ"
+        text = f"**Usᴇʀ ɪᴅ :** `{message.from_user.id}` \n**ɴᴀᴍᴇ :** {message.from_user.mention} \n\n**<b>🏷 ᴘʟᴀɴ :</b>** {user} \n\n<b>✓ ᴜᴘʟᴏᴀᴅ 2GB ғɪʟᴇs \n<b>✓ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ <b>: {humanbytes(limit)} \n<b>✓ ᴛᴏᴅᴀʏ ᴜsᴇᴅ </b>: {humanbytes(used)} \n</b>✓ ʀᴇᴍᴀɪɴ :</b> {humanbytes(remain)} \n</b>✓ ᴛɪᴍᴇᴏᴜᴛ :</b> 2 ᴍɪɴᴜᴛᴇs \n<b>✓ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss :</b> ᴜɴʟɪᴍɪᴛᴇᴅ \n<b>✓ ᴛɪᴍᴇ ɢᴀᴘ :</b> ʏᴇs \n\n**<b>ᴠᴀʟɪᴅɪᴛʏ :</b>** ʟɪғᴇᴛɪᴍᴇ"
     else:
         normal_date = datetime.fromtimestamp(ends).strftime('%Y-%m-%d')
-        text = f"**User ID :** `{message.from_user.id}` \n**ɴᴀᴍᴇ :** {message.from_user.mention} \n\n**<b>🏷 ᴘʟᴀɴ :</b>** {user} \n\n<b>✓ ʜɪɢʜ ᴘʀɪᴏʀɪᴛʏ </b>\n<b>✓ ᴜᴘʟᴏᴀᴅ 4GB ғɪʟᴇs </b>\n<b>✓ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ </b>: {humanbytes(limit)} \n<b>✓ ᴛᴏᴅᴀʏ ᴜsᴇᴅ </b>: {humanbytes(used)} \n<b>✓ ʀᴇᴍᴀɪɴ :</b> {humanbytes(remain)} \n<b>✓ ᴛɪᴍᴇᴏᴜᴛ :</b> 0 sᴇᴄᴏɴᴅ \n</b>✓ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss :</b> ᴜɴʟɪᴍɪᴛᴇᴅ \n<b>✓ ᴛɪᴍᴇ ɢᴀᴘ :</b> Yes \n\n**<b>ʏᴏᴜʀ ᴘʟᴀɴ ᴇɴᴅs ᴏɴ </b>:** {normal_date}"
+        text = f"**Usᴇʀ ɪᴅ :** `{message.from_user.id}` \n**ɴᴀᴍᴇ :** {message.from_user.mention} \n\n**<b>🏷 ᴘʟᴀɴ :</b>** {user} \n\n<b>✓ ʜɪɢʜ ᴘʀɪᴏʀɪᴛʏ </b>\n<b>✓ ᴜᴘʟᴏᴀᴅ 4GB ғɪʟᴇs </b>\n<b>✓ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ </b>: {humanbytes(limit)} \n<b>✓ ᴛᴏᴅᴀʏ ᴜsᴇᴅ </b>: {humanbytes(used)} \n<b>✓ ʀᴇᴍᴀɪɴ :</b> {humanbytes(remain)} \n<b>✓ ᴛɪᴍᴇᴏᴜᴛ :</b> 0 sᴇᴄᴏɴᴅ \n</b>✓ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss :</b> ᴜɴʟɪᴍɪᴛᴇᴅ \n<b>✓ ᴛɪᴍᴇ ɢᴀᴘ :</b> Yes \n\n**<b>ʏᴏᴜʀ ᴘʟᴀɴ ᴇɴᴅs ᴏɴ </b>:** {normal_date}"
 
     if user == "Free":
         await message.reply(text, quote=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("<b>💳 ᴜᴘɢʀᴀᴅᴇ</b>", callback_data="upgrade"), InlineKeyboardButton("✘ ᴄᴀɴᴄᴇʟ", callback_data="cancel")]]))
