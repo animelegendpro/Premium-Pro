@@ -45,8 +45,17 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 <b>⦿ /addpremium - Use This Command To Add Premium To Users</b>
 <b>⦿ /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
 
+     FREE_TXT= """<b>❤️‍🔥 sɪʟᴠᴇʀ ᴘʟᴀɴ</b>
 
+<b>☞ ᴜᴘʟᴏᴀᴅ 2ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
+<b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 2ɢʙ</b>
+<b>☞ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇꜱꜱ: 2</b>
+<b>☞ ᴛɪᴍᴇ ɢᴀᴘ: ɴᴏ ᴛɪᴍᴇ ɢᴀᴘ</b>
 
+<b>💰 ᴘʟᴀɴ ᴘʀɪᴄᴇ</b>
+
+<b>☞ ᴘʀɪᴄᴇ: 0</b>
+<b>☞ ᴠᴀʟɪᴅɪᴛʏ: ʟɪғᴇᴛɪᴍᴇ</b>"""
 
 
 
