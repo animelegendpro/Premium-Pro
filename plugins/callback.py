@@ -68,7 +68,7 @@ async def donate(bot,update):
 
 @Client.on_callback_query(filters.regex('premium'))
 async def premium(bot,update):
-    text = premium.PREMIUM_TXT.format(update.from_user.mention)
+    text = premium.PREMIUM_TXT
     keybord = InlineKeyboardMarkup([ 
                     [InlineKeyboardButton('Sɪʟᴠᴇʀ', callback_data='silver'),
                     InlineKeyboardButton('Gᴏʟᴅᴇɴ', callback_data='golden')],
