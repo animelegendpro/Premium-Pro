@@ -28,11 +28,11 @@ class script(object):
     DONATE_TXT = """
 <b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
 
-If You Like My Bots & Projects, You Can Donate Me Any Amount From 10 Rs Upto Your Choice.
+If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
 
 <b>🛍 UPI ID:</b> <code>anime-legend@axl</code> 
 
-<b>๏ ᴍᴀsᴛᴇʀ :- @Devil_Eyes_ZX</b>"""
+<b>๏ ᴍᴀsᴛᴇʀ :- @Devil_Eyes_ZBot</b>"""
 
     ADMIN_TXT = """<b><u>🦋 ADMIN ALL COMMANDS HERE</u></b>
 
@@ -49,3 +49,8 @@ If You Like My Bots & Projects, You Can Donate Me Any Amount From 10 Rs Upto You
 
 
 
+
+# Jishu Developer 
+# Don't Remove Credit 🥺
+# Telegram Channel @Madflix_Bots
+# Developer @JishuDeveloper
