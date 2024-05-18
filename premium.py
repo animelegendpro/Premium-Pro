@@ -1,4 +1,5 @@
-     PREMIUM_TXT= """<b>Free Plan Users</b>
+class script(object):
+    PREMIUM_TXT= """<b>Free Plan Users</b>
 
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 2.0 GB</b>
 <b>☞ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇꜱꜱ: 2</b>
