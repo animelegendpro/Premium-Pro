@@ -8,7 +8,7 @@ class script(object):
 	
 <b>▼ Uᴘɢʀᴀᴅᴇ ᴘʟᴀɴ ▼</b>"""
 
-     SILVER_TXT="""<b>🥈 Silver Plan</b>
+     VIP1_TXT="""<b>🥈 Silver Plan</b>
 
 <b>☞ ᴜᴘʟᴏᴀᴅ 4ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 20.0ɢʙ</b>
@@ -20,7 +20,7 @@ class script(object):
 <b>☞ ᴘʀɪᴄᴇ: ₹49</b>
 <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>"""
 
-     GOLDEN_TXT="""<b>🎖 Golden Plan</b>
+     VIP2_TXT="""<b>🎖 Golden Plan</b>
 
 <b>☞ ᴜᴘʟᴏᴀᴅ 4ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 50.0ɢʙ</b>
@@ -32,7 +32,7 @@ class script(object):
 <b>☞ ᴘʀɪᴄᴇ: ₹99</b>
 <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>"""
 
-     DIAMOND_TXT= """<b>💎 Diamond Plan</b>
+     VIP3_TXT= """<b>💎 Diamond Plan</b>
 
 <b>☞ ᴜᴘʟᴏᴀᴅ 4ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 100.0ɢʙ</b>
