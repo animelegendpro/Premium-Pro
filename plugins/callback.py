@@ -79,7 +79,7 @@ async def premium(bot,update):
 
 @Client.on_callback_query(filters.regex('silver'))
 async def silver(bot,update):
-    text = scriptz.SILVER_TXT
+    text = scriptz.SILVER_TXT.format(update.from_user.mention)
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
 	             InlineKeyboardButton("ʙᴜʏ", url=" https://t.me/Devil_Eyes_ZBot")]
@@ -88,7 +88,7 @@ async def silver(bot,update):
 
 @Client.on_callback_query(filters.regex('golden'))
 async def golden(bot,update):
-    text = scriptz.GOLDEN_TXT
+    text = scriptz.GOLDEN_TXT.format(update.from_user.mention)
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
 	             InlineKeyboardButton("ʙᴜʏ", url=" https://t.me/Devil_Eyes_ZBot")]
@@ -97,7 +97,7 @@ async def golden(bot,update):
 
 @Client.on_callback_query(filters.regex('diamond'))
 async def diamond(bot,update):
-    text = scriptz.DIAMOND_TXT
+    text = scriptz.DIAMOND_TXT.format(update.from_user.mention)
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
 	             InlineKeyboardButton("ʙᴜʏ", url=" https://t.me/Devil_Eyes_ZBot")]
@@ -113,7 +113,7 @@ async def home_callback_handler(bot, query):
                     InlineKeyboardButton("Sᴜᴘᴘᴏʀᴛ", url="https://t.me/+FGM0HOnjDC45ZDk1")],
                     [InlineKeyboardButton("Hᴇʟᴘ", callback_data='help'),
 		            InlineKeyboardButton("Aʙᴏᴜᴛ", callback_data='about')],
-                    [InlineKeyboardButton("🍁 ᴘʀᴇᴍɪᴜᴍ 🍁", url="https://t.me/{upgrade}")]
+                    [InlineKeyboardButton("🍁 ᴘʀᴇᴍɪᴜᴍ 🍁", callback_data='premium')]
 		  ])
     await query.message.edit_text(text=text, reply_markup=keybord)
 
