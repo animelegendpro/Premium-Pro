@@ -66,7 +66,7 @@ async def donate(bot,update):
     await update.message.edit(text = text,reply_markup = keybord)
 
 @Client.on_callback_query(filters.regex('premium'))
-async def help(bot,update):
+async def premium(bot,update):
     text = script.PREMIUM_TXT.format(update.from_user.mention)
     keybord = InlineKeyboardMarkup([ 
                     [InlineKeyboardButton('Sɪʟᴠᴇʀ', callback_data='silver'),
@@ -77,7 +77,7 @@ async def help(bot,update):
     await update.message.edit(text = text,reply_markup = keybord)
 
 @Client.on_callback_query(filters.regex('silver'))
-async def thumbnail(bot,update):
+async def silver(bot,update):
     text = script.SILVER_TXT
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
@@ -86,7 +86,7 @@ async def thumbnail(bot,update):
     await update.message.edit(text = text,reply_markup = keybord)
 
 @Client.on_callback_query(filters.regex('golden'))
-async def thumbnail(bot,update):
+async def golden(bot,update):
     text = script.GOLDEN_TXT
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
@@ -95,7 +95,7 @@ async def thumbnail(bot,update):
     await update.message.edit(text = text,reply_markup = keybord)
 
 @Client.on_callback_query(filters.regex('diamond'))
-async def thumbnail(bot,update):
+async def diamond(bot,update):
     text = script.DIAMOND_TXT
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
