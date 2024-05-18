@@ -32,7 +32,7 @@ If You Like My Bots & Projects, You Can Donate Me Any Amount From 10 Rs Upto You
 
 <b>🛍 UPI ID:</b> <code>anime-legend@axl</code> 
 
-<b>๏ ᴍᴀsᴛᴇʀ :- @Devil_Eyes_ZX</b> """
+<b>๏ ᴍᴀsᴛᴇʀ :- @Devil_Eyes_ZX</b>"""
 
     ADMIN_TXT = """<b><u>🦋 ADMIN ALL COMMANDS HERE</u></b>
 
