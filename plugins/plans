@@ -13,7 +13,7 @@ async def upgrade(bot,update):
   **💰 <u>ᴘʟᴀɴ ᴘʀɪᴄᴇ</u>**
 
   <b>☞ ᴘʀɪᴄᴇ: 0
-  <b>☞ ᴠᴀʟɪᴅɪᴛʏ: ʟɪғᴇᴛɪᴍᴇ
+  <b>☞ ᴠᴀʟɪᴅɪᴛʏ: ʟɪғᴇᴛɪᴍᴇ"""
 	keybord = InlineKeyboardMarkup([[ 
         			[InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data='upgrade'),
         			InlineKeyboardButton("Bᴜʏ",url = " https://t.me/Devil_Eyes_ZBot")] ]]) 
@@ -31,7 +31,7 @@ async def upgrade(bot,update):
   **💰 <u>ᴘʟᴀɴ ᴘʀɪᴄᴇ</u>**
 
   <b>☞ ᴘʀɪᴄᴇ: ₹49
-  <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>
+  <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>"""
 	keybord = InlineKeyboardMarkup([[ 
         			[InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data='upgrade'),
         			InlineKeyboardButton("Bᴜʏ",url = " https://t.me/Devil_Eyes_ZBot")] ]]) 
@@ -49,7 +49,7 @@ async def upgrade(bot,update):
   **💰 <u>ᴘʟᴀɴ ᴘʀɪᴄᴇ</u>**
 
   <b>☞ ᴘʀɪᴄᴇ: ₹99</b>
-  <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>
+  <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>"""
 	keybord = InlineKeyboardMarkup([[ 
         			[InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data='upgrade'),
         			InlineKeyboardButton("Bᴜʏ",url = " https://t.me/Devil_Eyes_ZBot")] ]]) 
@@ -67,7 +67,7 @@ async def upgrade(bot,update):
   **💰 <u>ᴘʟᴀɴ ᴘʀɪᴄᴇ</u>**
 
   <b>☞ ᴘʀɪᴄᴇ: ₹159</b>
-  <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>
+  <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>"""
 	keybord = InlineKeyboardMarkup([[ 
         			[InlineKeyboardButton("《 Bᴀᴄᴋ", callback_data='upgrade'),
         			InlineKeyboardButton("Bᴜʏ",url = " https://t.me/Devil_Eyes_ZBot")] ]]) 
