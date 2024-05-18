@@ -45,7 +45,16 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 <b>⦿ /addpremium - Use This Command To Add Premium To Users</b>
 <b>⦿ /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
 
-     FREE_TXT= """<b>❤️‍🔥 sɪʟᴠᴇʀ ᴘʟᴀɴ</b>
+     PREMIUM_TXT= """<b>๏ Fʀᴇᴇ ᴘʟᴀɴ ᴜsᴇʀᴜsᴇʀ</b>
+
+<b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 2.0 GB</b>
+<b>☞ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇꜱꜱ: 2</b>
+<b>☞ ᴛɪᴍᴇᴏᴜᴛ: 1 ᴍɪɴᴜᴛᴇꜱ</b>
+<b>☞ ᴛɪᴍᴇ ɢᴀᴘ: ʏᴇꜱ</b>
+	
+<b>▼ Uᴘɢʀᴀᴅᴇ ᴘʟᴀɴ ▼</b>"""
+
+FREE_TXT= """<b>❤️‍🔥 sɪʟᴠᴇʀ ᴘʟᴀɴ</b>
 
 <b>☞ ᴜᴘʟᴏᴀᴅ 2ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 2ɢʙ</b>
@@ -56,10 +65,3 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 
 <b>☞ ᴘʀɪᴄᴇ: 0</b>
 <b>☞ ᴠᴀʟɪᴅɪᴛʏ: ʟɪғᴇᴛɪᴍᴇ</b>"""
-
-
-
-# Jishu Developer 
-# Don't Remove Credit 🥺
-# Telegram Channel @Madflix_Bots
-# Developer @JishuDeveloper
