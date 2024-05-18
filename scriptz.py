@@ -1,4 +1,4 @@
-class premium(object):
+class scriptz(object):
     PREMIUM_TXT= """<b>Free Plan Users</b>
 
 <b>☞ Daily Upload: 2.0 GB</b>
