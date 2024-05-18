@@ -45,7 +45,7 @@ If You Like My Bots & Projects, You Can Donate Me Any Amount From 10 Rs Upto You
 <b>⦿ /addpremium - Use This Command To Add Premium To Users</b>
 <b>⦿ /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
 
-     UPGRADE_TXT= """<b>Fʀᴇᴇ ᴘʟᴀɴ ᴜsᴇʀᴜsᴇʀ</b>
+     PREMIUM_TXT= """<b>Fʀᴇᴇ ᴘʟᴀɴ ᴜsᴇʀᴜsᴇʀ</b>
 
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 2.0 GB</b>
 <b>☞ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇꜱꜱ: 2</b>
