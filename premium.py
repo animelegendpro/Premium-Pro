@@ -1,4 +1,4 @@
-class script(object):
+class premium(object):
     PREMIUM_TXT= """<b>Free Plan Users</b>
 
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 2.0 GB</b>
