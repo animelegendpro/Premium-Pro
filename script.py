@@ -45,7 +45,7 @@ If You Like My Bots & Projects, You Can Donate Me Any Amount From 10 Rs Upto You
 <b>⦿ /addpremium - Use This Command To Add Premium To Users</b>
 <b>⦿ /restart - Use This Command To Cancel All Process And Restart The Bot</b>"""
 
-     PREMIUM_TXT= """<b>Fʀᴇᴇ ᴘʟᴀɴ ᴜsᴇʀᴜsᴇʀ</b>
+     PREMIUM_TXT= """<b>Free Plan Users</b>
 
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 2.0 GB</b>
 <b>☞ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇꜱꜱ: 2</b>
@@ -54,19 +54,7 @@ If You Like My Bots & Projects, You Can Donate Me Any Amount From 10 Rs Upto You
 	
 <b>▼ Uᴘɢʀᴀᴅᴇ ᴘʟᴀɴ ▼</b>"""
 
-     FREE_TXT= """<b>❤️‍🔥 sɪʟᴠᴇʀ ᴘʟᴀɴ</b>
-
-<b>☞ ᴜᴘʟᴏᴀᴅ 2ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
-<b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 2ɢʙ</b>
-<b>☞ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇꜱꜱ: 2</b>
-<b>☞ ᴛɪᴍᴇ ɢᴀᴘ: ɴᴏ ᴛɪᴍᴇ ɢᴀᴘ</b>
-
-<b>💰 ᴘʟᴀɴ ᴘʀɪᴄᴇ</b>
-
-<b>☞ ᴘʀɪᴄᴇ: 0</b>
-<b>☞ ᴠᴀʟɪᴅɪᴛʏ: ʟɪғᴇᴛɪᴍᴇ</b>"""
-
-     SILVER_TXT="""<b>🥈 sɪʟᴠᴇʀ ᴘʟᴀɴ</b>
+     SILVER_TXT="""<b>🥈 Silver Plan</b>
 
 <b>☞ ᴜᴘʟᴏᴀᴅ 4ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 20.0ɢʙ</b>
@@ -78,7 +66,7 @@ If You Like My Bots & Projects, You Can Donate Me Any Amount From 10 Rs Upto You
 <b>☞ ᴘʀɪᴄᴇ: ₹49</b>
 <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>"""
 
-     GOLDEN_TXT="""<b>🎖 Gᴏʟᴅᴇɴ ᴘʟᴀɴ</b>
+     GOLDEN_TXT="""<b>🎖 Golden Plan</b>
 
 <b>☞ ᴜᴘʟᴏᴀᴅ 4ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 50.0ɢʙ</b>
@@ -90,7 +78,7 @@ If You Like My Bots & Projects, You Can Donate Me Any Amount From 10 Rs Upto You
 <b>☞ ᴘʀɪᴄᴇ: ₹99</b>
 <b>☞ ᴠᴀʟɪᴅɪᴛʏ: 𝟹𝟶ᴅᴀʏs</b>"""
 
-     DIAMOND_TXT= """<b>💎 Dɪᴀᴍᴏɴᴅ ᴘʟᴀɴ</b>
+     DIAMOND_TXT= """<b>💎 Diamond Plan</b>
 
 <b>☞ ᴜᴘʟᴏᴀᴅ 4ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 100.0ɢʙ</b>
