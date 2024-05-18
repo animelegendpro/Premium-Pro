@@ -28,7 +28,7 @@ class script(object):
     DONATE_TXT = """
 <b>🥲 Thanks For Showing Interest In Donation! ❤️</b>
 
-If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upto Your Choice.
+If You Like My Bots & Projects, You Can Donate Me Any Amount From 10 Rs Upto Your Choice.
 
 <b>🛍 UPI ID:</b> <code>anime-legend@axl</code> 
 
@@ -54,7 +54,7 @@ If You Like My Bots & Projects, You Can 🎁 Donate Me Any Amount From 10 Rs Upt
 	
 <b>▼ Uᴘɢʀᴀᴅᴇ ᴘʟᴀɴ ▼</b>"""
 
-FREE_TXT= """<b>❤️‍🔥 sɪʟᴠᴇʀ ᴘʟᴀɴ</b>
+     FREE_TXT= """<b>❤️‍🔥 sɪʟᴠᴇʀ ᴘʟᴀɴ</b>
 
 <b>☞ ᴜᴘʟᴏᴀᴅ 2ɢʙ ꜰɪʟᴇꜱ: ᴛʀᴜᴇ</b>
 <b>☞ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ: 2ɢʙ</b>
