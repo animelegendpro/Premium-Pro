@@ -40,7 +40,7 @@
 <summary>Deploy To Heroku</summary>
 <p>
 <br>
-<a href="https://heroku.com/deploy?template=https://github.com/animelegendpro/Premium-Rename-Bot">
+<a href="https://heroku.com/deploy?template=https://github.com/animelegendpro/Premium-Pro">
   <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
 </a>
 </p>
