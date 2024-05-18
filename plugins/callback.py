@@ -2,6 +2,7 @@
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup)
 from pyrogram import Client , filters
 from script import *
+from premium import *
 from config import *
 
 
@@ -67,7 +68,7 @@ async def donate(bot,update):
 
 @Client.on_callback_query(filters.regex('premium'))
 async def premium(bot,update):
-    text = script.PREMIUM_TXT.format(update.from_user.mention)
+    text = premium.PREMIUM_TXT.format(update.from_user.mention)
     keybord = InlineKeyboardMarkup([ 
                     [InlineKeyboardButton('Sɪʟᴠᴇʀ', callback_data='silver'),
                     InlineKeyboardButton('Gᴏʟᴅᴇɴ', callback_data='golden')],
@@ -78,7 +79,7 @@ async def premium(bot,update):
 
 @Client.on_callback_query(filters.regex('silver'))
 async def silver(bot,update):
-    text = script.SILVER_TXT
+    text = premium.SILVER_TXT
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
 	             InlineKeyboardButton("ʙᴜʏ", url=" https://t.me/Devil_Eyes_ZBot")]
@@ -87,7 +88,7 @@ async def silver(bot,update):
 
 @Client.on_callback_query(filters.regex('golden'))
 async def golden(bot,update):
-    text = script.GOLDEN_TXT
+    text = premium.GOLDEN_TXT
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
 	             InlineKeyboardButton("ʙᴜʏ", url=" https://t.me/Devil_Eyes_ZBot")]
@@ -96,7 +97,7 @@ async def golden(bot,update):
 
 @Client.on_callback_query(filters.regex('diamond'))
 async def diamond(bot,update):
-    text = script.DIAMOND_TXT
+    text = premium.DIAMOND_TXT
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
 	             InlineKeyboardButton("ʙᴜʏ", url=" https://t.me/Devil_Eyes_ZBot")]
