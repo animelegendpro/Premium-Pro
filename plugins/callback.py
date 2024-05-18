@@ -82,7 +82,7 @@ async def silver(bot,update):
     text = scriptz.SILVER_TXT.format(update.from_user.mention)
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
-	             InlineKeyboardButton("ʙᴜʏ", url=" https://t.me/Devil_Eyes_ZBot")]
+	             InlineKeyboardButton("ʙᴜʏ", url="https://t.me/Devil_Eyes_ZBot")]
 		  ])
     await update.message.edit(text = text,reply_markup = keybord)
 
@@ -91,7 +91,7 @@ async def golden(bot,update):
     text = scriptz.GOLDEN_TXT.format(update.from_user.mention)
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
-	             InlineKeyboardButton("ʙᴜʏ", url=" https://t.me/Devil_Eyes_ZBot")]
+	             InlineKeyboardButton("ʙᴜʏ", url="https://t.me/Devil_Eyes_ZBot")]
 		  ])
     await update.message.edit(text = text,reply_markup = keybord)
 
@@ -100,7 +100,7 @@ async def diamond(bot,update):
     text = scriptz.DIAMOND_TXT.format(update.from_user.mention)
     keybord = InlineKeyboardMarkup([  
                     [InlineKeyboardButton("《 Bᴀᴄᴋ",callback_data = "premium"), 
-	             InlineKeyboardButton("ʙᴜʏ", url=" https://t.me/Devil_Eyes_ZBot")]
+	             InlineKeyboardButton("ʙᴜʏ", url="https://t.me/Devil_Eyes_ZBot")]
 		  ])
     await update.message.edit(text = text,reply_markup = keybord)
 
