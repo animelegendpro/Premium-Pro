@@ -42,11 +42,12 @@ async def upgradecm(bot,message):
         <b>☞ Time Gap: Yes</b>
 	
         <b>▼ Upgrade Plan ▼</b>"""
-	keybord = InlineKeyboardMarkup([[
+	keybord = InlineKeyboardMarkup([
                                [InlineKeyboardButton('Sɪʟᴠᴇʀ', callback_data='silver'),
                                InlineKeyboardButton('Gᴏʟᴅᴇɴ', callback_data='golden')],
                                [InlineKeyboardButton('Dᴜʏ', url = "https://t.me/Devil_Eyes_ZBot"),
-                               InlineKeyboardButton('Dɪᴀᴍᴏɴᴅ', callback_data='diamond')],[InlineKeyboardButton("Cancel",callback_data = "cancel")  ]]) 
+                               InlineKeyboardButton('Dɪᴀᴍᴏɴᴅ', callback_data='diamond')] 
+	                       ]) 
 	await message.reply_text(text = text,reply_markup = keybord)
 
 
