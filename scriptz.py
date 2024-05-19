@@ -17,7 +17,7 @@ class scriptz(object):
 
 <b>💰 <b>Plan Price</b>
 
-<b>☞ Price: ₹49</b>
+<b>☞ Price: ₹20</b>
 <b>☞ Validity: 30days</b>"""
 
     GOLDEN_TXT= """<b>🎖 Golden Plan</b>
@@ -29,7 +29,7 @@ class scriptz(object):
 
 <b>💰 Plan Price</b>
 
-<b>☞ Price: ₹99</b>
+<b>☞ Price: ₹50</b>
 <b>☞ Validity: 30days</b>"""
 
     DIAMOND_TXT= """<b>💎 Diamond Plan</b>
@@ -41,5 +41,5 @@ class scriptz(object):
 
 <b>💰 Plan Price</b>
 
-<b>☞ Price: ₹159</b>
+<b>☞ Price: ₹80</b>
 <b>☞ Validity: 30days</b>"""
