@@ -15,7 +15,7 @@ class scriptz(object):
 <b>☞ Parallel Process: 2</b>
 <b>☞ Time Gap: No Time Gap</b>
 
-<b>💰 <b>Plan Price</>
+<b>💰 <b>Plan Price</b>
 
 <b>☞ Price: ₹49</b>
 <b>☞ Validity: 30days</b>"""
