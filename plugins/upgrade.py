@@ -1,6 +1,6 @@
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup,ForceReply)
 from pyrogram import Client , filters
-from callback import silver , golden , diamond
+from plugins.callback import silver , golden , diamond
 
 @Client.on_callback_query(filters.regex('upgrade'))
 async def upgrade(bot,update):
