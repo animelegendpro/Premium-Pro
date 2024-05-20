@@ -1,4 +1,4 @@
-<img src="https://graph.org/file/ad48ac09b1e6f30d2dae4.jpg" alt="logo" target="/blank">
+<img src="https://telegra.ph/file/d0a133ab516b591903a80.jpg" alt="logo" target="/blank">
 
 <h1 align="center">
  <b><a href="https://t.me/filerenamexprobot" target="/blank">Rename Bot 4GB</a></>
