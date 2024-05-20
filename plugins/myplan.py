@@ -1,13 +1,13 @@
 import time
 from pyrogram import Client, filters
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup)
-from helper.database import find_one, used_limit
-from helper.database import daily as daily_
+from helper.database import * find_one, used_limit
+from helper.database import * daily as daily_
 import datetime
 from datetime import datetime
 from datetime import date as date_
 from helper.progress import humanbytes
-from helper.database import daily as daily_
+from helper.database import * daily as daily_
 from helper.date import check_expi
 from helper.database import uploadlimit, usertype
 
@@ -15,7 +15,7 @@ from helper.database import uploadlimit, usertype
 @Client.on_message(filters.private & filters.command(["myplan"]))
 async def start(client, message):
     used_ = find_one(message.from_user.id)
-    daily = used_["daily_"]
+    daily = used_["daily"]
     expi = daily - \
         int(time.mktime(time.strptime(str(date_.today()), '%Y-%m-%d')))
     if expi != 0:
