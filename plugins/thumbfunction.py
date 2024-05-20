@@ -20,7 +20,7 @@ async def removethumb(client,message):
 async def addthumbs(client,message):
 	file_id = str(message.photo.file_id)
 	addthumb(message.chat.id , file_id)
-	await message.reply_text("**ᴛʜᴜᴍʙɴᴀɪʟ sᴀᴠᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ✓**")
+	await message.reply_text("**Tʜᴜᴍʙɴᴀɪʟ Sᴀᴠᴇᴅ ✓**")
 
 
 
