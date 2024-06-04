@@ -1,7 +1,7 @@
 import time
 from pyrogram import Client, filters
 from pyrogram.types import (InlineKeyboardButton, InlineKeyboardMarkup)
-from helper.database import * find_one
+from helper.database import find_one
 from helper.database import * used_limit
 from helper.database import * daily as daily_
 import datetime
