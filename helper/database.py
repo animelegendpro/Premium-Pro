@@ -116,5 +116,5 @@ def delete(id):
     dbcol.delete_one(id)
 
 
-def find_ones(id):
+def find_one(id):
     return dbcol.find_one({"_id": id})
