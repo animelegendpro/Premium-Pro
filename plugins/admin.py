@@ -7,7 +7,7 @@ from helper.database import uploadlimit, usertype, addpre
 
 @Client.on_message(filters.private & filters.user(OWNER) & filters.command(["warn"]))
 async def warn(client, message):
-        if len(m.command) >= 3:
+        if len(message.command) >= 3:
             try:
                 user_id = m.text.split(' ', 2)[1]
                 reason = m.text.split(' ', 2)[2]
