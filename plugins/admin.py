@@ -20,9 +20,9 @@ async def warn(client, message):
 @Client.on_message(filters.private & filters.user(OWNER) & filters.command(["addpremium"]))
 async def buypremium(bot, message):
 	await message.reply_text("<b>๏ sᴇʟᴇᴄᴛ ᴘʟᴀɴ ᴛᴏ ᴜᴘɢʀᴀᴅᴇ...</b>", quote=True, reply_markup=InlineKeyboardMarkup([
-		           [InlineKeyboardButton("🔥 Bᴀsɪᴄ", callback_data="vip1")],
-				   [InlineKeyboardButton("😎 Sᴛᴀɴᴅᴀʀᴅ", callback_data="vip2")],
-				   [InlineKeyboardButton("👑 Uʟᴛɪᴍᴀᴛᴇ", callback_data="vip3")],
+		           [InlineKeyboardButton("🥈 Sɪʟᴠᴇʀ", callback_data="vip1")],
+				   [InlineKeyboardButton("🎖 Gᴏʟᴅᴇɴ", callback_data="vip2")],
+				   [InlineKeyboardButton("💎 Dɪᴀᴍᴏɴᴅ", callback_data="vip3")],
 				   [InlineKeyboardButton("✘ ᴄᴀɴᴄᴇʟ ✘",callback_data = "cancel")]
 				   
 				   ]))
@@ -54,10 +54,10 @@ async def vip1(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit  = 21474836500
 	uploadlimit(int(user_id),21474836500)
-	usertype(int(user_id),"🔥 Bᴀsɪᴄ")
+	usertype(int(user_id),"🥈 Sʟɪᴠᴇʀ")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 20 GB")
-	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ 🔥 Bᴀsɪᴄ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>")
+	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ 🥈 Sɪʟᴠᴇʀ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>")
 
 @Client.on_callback_query(filters.regex('vip2'))
 async def vip2(bot,update):
@@ -65,10 +65,10 @@ async def vip2(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit = 53687091200
 	uploadlimit(int(user_id), 53687091200)
-	usertype(int(user_id),"😎 Sᴛᴀɴᴅᴀʀᴅ")
+	usertype(int(user_id),"🎖 Gᴏʟᴅᴇɴ")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 50 GB")
-	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ 😎 Sᴛᴀɴᴅᴀʀᴅ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>")
+	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ 🎖 Gᴏʟᴅᴇɴ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>")
 
 @Client.on_callback_query(filters.regex('vip3'))
 async def vip3(bot,update):
@@ -76,10 +76,10 @@ async def vip3(bot,update):
 	user_id = id[1].replace(" ", "")
 	inlimit = 107374182400
 	uploadlimit(int(user_id), 107374182400)
-	usertype(int(user_id),"👑 ᴜʟᴛɪᴍᴀᴛᴇ")
+	usertype(int(user_id),"💎 Dɪᴀᴍᴏɴᴅ")
 	addpre(int(user_id))
 	await update.message.edit("ᴀᴅᴅᴇᴅ sᴜᴄᴄᴇssғᴜʟʟʏ ᴛᴏ ᴘʀᴇᴍɪᴜᴍ ᴜᴘʟᴏᴀᴅ ʟɪᴍɪᴛ 𝟷𝟶𝟶 ɢʙ")
-	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ 👑 Uʟᴛɪᴍᴀᴛᴇ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>")
+	await bot.send_message(user_id,"<b>๏ ʜᴇʏ ʏᴏᴜ ᴀʀᴇ ᴜᴘɢʀᴀᴅᴇᴅ ᴛᴏ 💎 Dɪᴀᴍᴏɴᴅ. ᴄʜᴇᴄᴋ ʏᴏᴜʀ ᴘʟᴀɴ ʜᴇʀᴇ /myplan</b>")
 
 
 # CEASE POWER MODE @JISHUDEVELOPER
