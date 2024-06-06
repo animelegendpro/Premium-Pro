@@ -43,7 +43,7 @@ async def start(client, message):
         text = f"**Usᴇʀ ɪᴅ :** `{message.from_user.id}` \n**ɴᴀᴍᴇ :** {message.from_user.mention} \n\n**<b>🏷 ᴘʟᴀɴ :</b>** {user} \n\n<b>✓ ʜɪɢʜ ᴘʀɪᴏʀɪᴛʏ </b>\n<b>✓ ᴜᴘʟᴏᴀᴅ 𝟺ɢʙ ғɪʟᴇs </b>\n<b>✓ ᴅᴀɪʟʏ ᴜᴘʟᴏᴀᴅ </b>: {humanbytes(limit)} \n<b>✓ ᴛᴏᴅᴀʏ ᴜsᴇᴅ </b>: {humanbytes(used)} \n<b>✓ ʀᴇᴍᴀɪɴ :</b> {humanbytes(remain)} \n<b>✓ ᴛɪᴍᴇᴏᴜᴛ :</b> 0 sᴇᴄᴏɴᴅ \n</b>✓ ᴘᴀʀᴀʟʟᴇʟ ᴘʀᴏᴄᴇss :</b> ᴜɴʟɪᴍɪᴛᴇᴅ \n<b>✓ ᴛɪᴍᴇ ɢᴀᴘ :</b> ʏᴇs \n\n**<b>ʏᴏᴜʀ ᴘʟᴀɴ ᴇɴᴅs ᴏɴ </b>:** {normal_date}"
 
     if user == "Free":
-        await message.reply(text, quote=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("<b>🍁 ᴘʀᴇᴍɪᴜᴍ</b>", callback_data="premium"), InlineKeyboardButton("✘ ᴄᴀɴᴄᴇʟ", callback_data="cancel")]]))
+        await message.reply(text, quote=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("🍁 ᴘʀᴇᴍɪᴜᴍ", callback_data="premium"), InlineKeyboardButton("✘ ᴄᴀɴᴄᴇʟ", callback_data="cancel")]]))
     else:
         await message.reply(text, quote=True, reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("✘ ᴄᴀɴᴄᴇʟ ✘", callback_data="cancel")]]))
 
